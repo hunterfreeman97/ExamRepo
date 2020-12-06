@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         mShowCount = (TextView) findViewById(R.id.show_count);
 
     }
-    //comment
+    //another comment
     public void showToast(View view) {
         Toast toast = Toast.makeText(this, R.string.toast_message,Toast.LENGTH_SHORT);
         toast.show();
