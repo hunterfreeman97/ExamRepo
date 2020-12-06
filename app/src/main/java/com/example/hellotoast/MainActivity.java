@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     //another comment
+    //more commentsw
     public void showToast(View view) {
         Toast toast = Toast.makeText(this, R.string.toast_message,Toast.LENGTH_SHORT);
         toast.show();
