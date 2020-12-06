@@ -1,8 +1,7 @@
-name: Test push every day
+name: Push on build
 
-on: 
-  schedule:
-    - cron: '* 0 * * *'
+on: [build]
+
 jobs:
   build:
 
@@ -13,6 +12,4 @@ jobs:
       uses: techulus/push-github-action@1.0.0
       env:
         API_KEY: 16fffefa-cf48-4724-9ede-8c7d34e45f40
-        MESSAGE: "Test notification from GitHub 🧪"
-        TITLE: Testing
-        LINK: https://github.com/techulus/push-github-action
+        MESSAGE: "Hey Hunter there is a new build"
